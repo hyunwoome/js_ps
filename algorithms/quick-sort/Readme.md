@@ -13,7 +13,3 @@ Quicksort는 재귀를 이용한 분할정복 알고리즘이다. (Divide and Co
 | Name           |     Best      |    Average    |     Worst     | Memory | Stable | Comments                                                      |
 | -------------- | :-----------: | :-----------: | :-----------: | :----: | :----: | :------------------------------------------------------------ |
 | **Quick sort** | n&nbsp;log(n) | n&nbsp;log(n) | n<sup>2</sup> | log(n) |   No   | Quicksort is usually done in-place with O(log(n)) stack space |
-
-## Reference
-
-- [JavaScript Algorithms](https://github.com/trekhleb/javascript-algorithms)

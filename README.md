@@ -4,4 +4,8 @@
 
 ## Algorithms
 
-- [Quicksort]()
+- [Quicksort](https://github.com/hyunwoome/ps-js/tree/main/algorithms/quick-sort)
+
+## Reference
+
+- [JavaScript Algorithms](https://github.com/trekhleb/javascript-algorithms)
