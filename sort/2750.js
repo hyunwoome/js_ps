@@ -1,9 +1,10 @@
 // boj 2750 (80)
+// 일반 정렬
 
 // ! for submit
 // const fs = require('fs');
 // const input = fs
-// 	.readFileSync('/dev/stdin')
+// 	.readFileSync('./input')
 // 	.toString()
 // 	.trim()
 // 	.split('\n')
