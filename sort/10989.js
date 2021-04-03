@@ -1,4 +1,4 @@
-// boj 2750 (82) ('/dev/stdin')
+// boj 10989 (82) ('/dev/stdin')
 // 메모리 초과 (C++로 제출함)
 
 const fs = require('fs');
