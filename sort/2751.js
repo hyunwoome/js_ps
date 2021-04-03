@@ -4,7 +4,7 @@
 // ! for submit
 const fs = require('fs');
 const input = fs
-	.readFileSync('sort/input', 'utf8')
+	.readFileSync('/dev/stdin', 'utf8')
 	.trim()
 	.split('\n')
 	.map((el) => Number(el));

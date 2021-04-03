@@ -1,7 +1,7 @@
-# JavaScript Algorithm
+# JavaScript PS
 
-> 자바스크립트로 문제풀이 및 알고리즘 저장소
+> 자바스크립트 알고리즘 문제풀이 저장소
 
-## Algorithms
+## Topics
 
-- [Sort]()
+- [Sort](https://github.com/hyunwoome/ps-js/tree/main/sort)
