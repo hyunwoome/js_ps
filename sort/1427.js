@@ -1,4 +1,4 @@
-// boj 10989 (83) ('/dev/stdin')
+// boj 1427 (83) ('/dev/stdin')
 
 const fs = require('fs');
 const input = fs.readFileSync('sort/input', 'utf8').trim().split('');
