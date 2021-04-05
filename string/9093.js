@@ -1,4 +1,4 @@
-// boj 10828 (89) ('/dev/stdin')
+// boj 9093 (89) ('/dev/stdin')
 
 const fs = require('fs');
 const input = fs.readFileSync('string/input', 'utf8').trim().split('\n');
