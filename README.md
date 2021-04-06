@@ -5,7 +5,6 @@
 ## Topics
 
 - [Sort](https://github.com/hyunwoome/ps-js/tree/main/sort)
-
 - [Stack](https://github.com/hyunwoome/ps/tree/main/stack)
-
-- [String]()
+- [String](https://github.com/hyunwoome/ps/tree/main/string)
+- [Queue]()
