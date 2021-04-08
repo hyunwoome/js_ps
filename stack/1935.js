@@ -19,7 +19,6 @@ exp.split('').forEach((e) => {
       break;
     default:
       S.push(Number(input[e.charCodeAt() - 65]));
-      console.log(S);
   }
 });
 
