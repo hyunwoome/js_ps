@@ -1,9 +1,9 @@
 function solution(participant, completion) {
-  let parSort = participant.sort();
-  let comSort = completion.sort();
-  for (let i = 0; i < parSort.length; i++) {
-    if (parSort[i] !== comSort[i]) {
-      return parSort[i];
+  let sortPar = participant.sort();
+  let sortCom = completion.sort();
+  for (let i = 0; i < sortPar.length; i++) {
+    if (sortPar[i] !== sortCom[i]) {
+      return sortPar[i];
     }
   }
 }

@@ -15,4 +15,8 @@
 
 - [Programmers](https://github.com/hyunwoome/ps/tree/main/programmers)
 
+  - [brute-force](https://github.com/hyunwoome/ps/tree/main/programmers/bruteforce)
+
+  - [hash](https://github.com/hyunwoome/ps/tree/main/programmers/hash)
+
   - [monthly](https://github.com/hyunwoome/ps/tree/main/programmers/monthly)
