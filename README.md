@@ -6,11 +6,13 @@
 
 - [Baekjoon](https://github.com/hyunwoome/ps/tree/main/baekjoon)
 
-  - [implement](https://github.com/hyunwoome/ps/tree/main/implement)
-  - [math](https://github.com/hyunwoome/ps/tree/main/math)
-  - [sort](https://github.com/hyunwoome/ps-js/tree/main/sort)
-  - [stack](https://github.com/hyunwoome/ps/tree/main/stack)
-  - [string](https://github.com/hyunwoome/ps/tree/main/string)
-  - [queue](https://github.com/hyunwoome/ps/tree/main/queue)
+  - [implement](https://github.com/hyunwoome/ps/tree/main/baekjoon/implement)
+  - [math](https://github.com/hyunwoome/ps/tree/main/baekjoon/math)
+  - [sort](https://github.com/hyunwoome/ps-js/tree/main/baekjoon/sort)
+  - [stack](https://github.com/hyunwoome/ps/tree/main/baekjoon/stack)
+  - [string](https://github.com/hyunwoome/ps/tree/main/baekjoon/string)
+  - [queue](https://github.com/hyunwoome/ps/tree/main/baekjoon/queue)
 
 - [Programmers](https://github.com/hyunwoome/ps/tree/main/programmers)
+
+  - [monthly](https://github.com/hyunwoome/ps/tree/main/programmers/monthly)
