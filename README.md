@@ -20,3 +20,7 @@
   - [hash](https://github.com/hyunwoome/ps/tree/main/programmers/hash)
 
   - [monthly](https://github.com/hyunwoome/ps/tree/main/programmers/monthly)
+
+  - [practice](https://github.com/hyunwoome/ps/tree/main/programmers/practice)
+
+  - [sort](https://github.com/hyunwoome/ps/tree/main/programmers/sort)
