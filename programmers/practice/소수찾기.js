@@ -8,7 +8,8 @@ function solution(n) {
       }
     }
   }
+  console.log(arr);
   return arr.filter((e) => e).length;
 }
 
-console.log(solution(5));
+console.log(solution(12));
