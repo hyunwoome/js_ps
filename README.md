@@ -15,7 +15,9 @@
 
 - [Programmers](https://github.com/hyunwoome/ps/tree/main/programmers)
   - [brute-force](https://github.com/hyunwoome/ps/tree/main/programmers/bruteforce)
+  - [greedy](https://github.com/hyunwoome/ps/tree/main/programmers/greedy)
   - [hash](https://github.com/hyunwoome/ps/tree/main/programmers/hash)
+  - [kakao](https://github.com/hyunwoome/ps/tree/main/programmers/kakao)
   - [monthly](https://github.com/hyunwoome/ps/tree/main/programmers/monthly)
   - [practice](https://github.com/hyunwoome/ps/tree/main/programmers/practice)
   - [sort](https://github.com/hyunwoome/ps/tree/main/programmers/sort)

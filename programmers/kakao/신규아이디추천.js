@@ -18,9 +18,3 @@ function solution(new_id) {
 }
 
 console.log(solution('...!@BaT#*..y.abcdefghijklm'));
-
-// 컨비니언스 - 프론트엔드 개발자 (React.js)
-// 단비교육 - Front-end Developer (ReactJS)
-// 비트바이트 - 웹 프론트엔드 개발자
-// 딜리셔스 - 웹 개발자
-// 미리디 - 미리캔버스 프론트엔드/백엔드 개발자
