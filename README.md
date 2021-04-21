@@ -18,6 +18,7 @@
   - [greedy](https://github.com/hyunwoome/ps/tree/main/programmers/greedy)
   - [hash](https://github.com/hyunwoome/ps/tree/main/programmers/hash)
   - [kakao](https://github.com/hyunwoome/ps/tree/main/programmers/kakao)
+  - [meister](https://github.com/hyunwoome/ps/tree/main/programmers/meister)
   - [monthly](https://github.com/hyunwoome/ps/tree/main/programmers/monthly)
   - [practice](https://github.com/hyunwoome/ps/tree/main/programmers/practice)
   - [sort](https://github.com/hyunwoome/ps/tree/main/programmers/sort)
