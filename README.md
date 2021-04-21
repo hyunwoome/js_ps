@@ -28,3 +28,5 @@
     - [summer](https://github.com/hyunwoome/ps/tree/main/programmers/lv1/summer)
 
   - [LV2](https://github.com/hyunwoome/ps/tree/main/programmers/lv2)
+
+    - [practice](https://github.com/hyunwoome/ps/tree/main/programmers/lv2/practice)
