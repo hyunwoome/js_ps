@@ -14,12 +14,17 @@
   - [queue](https://github.com/hyunwoome/ps/tree/main/baekjoon/queue)
 
 - [Programmers](https://github.com/hyunwoome/ps/tree/main/programmers)
-  - [brute-force](https://github.com/hyunwoome/ps/tree/main/programmers/bruteforce)
-  - [greedy](https://github.com/hyunwoome/ps/tree/main/programmers/greedy)
-  - [hash](https://github.com/hyunwoome/ps/tree/main/programmers/hash)
-  - [kakao](https://github.com/hyunwoome/ps/tree/main/programmers/kakao)
-  - [meister](https://github.com/hyunwoome/ps/tree/main/programmers/meister)
-  - [monthly](https://github.com/hyunwoome/ps/tree/main/programmers/monthly)
-  - [practice](https://github.com/hyunwoome/ps/tree/main/programmers/practice)
-  - [sort](https://github.com/hyunwoome/ps/tree/main/programmers/sort)
-  - [summer](https://github.com/hyunwoome/ps/tree/main/programmers/summer)
+
+  - [LV1](https://github.com/hyunwoome/ps/tree/main/programmers/lv1)
+
+    - [brute-force](https://github.com/hyunwoome/ps/tree/main/programmers/lv1/bruteforce)
+    - [greedy](https://github.com/hyunwoome/ps/tree/main/programmers/lv1/greedy)
+    - [hash](https://github.com/hyunwoome/ps/tree/main/programmers/lv1/hash)
+    - [kakao](https://github.com/hyunwoome/ps/tree/main/programmers/lv1/kakao)
+    - [meister](https://github.com/hyunwoome/ps/tree/main/programmers/lv1/meister)
+    - [monthly](https://github.com/hyunwoome/ps/tree/main/programmers/lv1/monthly)
+    - [practice](https://github.com/hyunwoome/ps/tree/main/programmers/lv1/practice)
+    - [sort](https://github.com/hyunwoome/ps/tree/main/programmers/lv1/sort)
+    - [summer](https://github.com/hyunwoome/ps/tree/main/programmers/lv1/summer)
+
+  - [LV2](https://github.com/hyunwoome/ps/tree/main/programmers/lv2)
