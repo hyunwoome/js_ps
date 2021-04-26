@@ -1,14 +1,9 @@
 function solution(s) {
-  let tmpArr = [];
-  let splitted = s.split(' ').map((el) => el.toLowerCase());
-  for (let i = 0; i < splitted.length; i++) {
-    if (splitted[i][0] >= 'a' && splitted[i][0] <= 'z') {
-      tmpArr.push(splitted[i][0].toUpperCase() + splitted[i].substr(1));
-    } else {
-      tmpArr.push(splitted[i]);
-    }
-  }
-  return tmpArr.join(' ');
+  let arr = s.split(' ');
+  let answer = arr.map(
+    (el) => el.charAt(0).toUpperCase() + el.substring(1).toLowerCase(),
+  );
+  return answer.join(' ');
 }
 
 console.log(solution('3people unFollowed me'));
