@@ -6,7 +6,8 @@
 
 ### 자료 구조
 
-- [ ] [Heap]()
+- [Hash Table](https://hyunwoome.tistory.com/43)
+- [Heap](https://hyunwoome.tistory.com/42)
 
 <br>
 
@@ -16,5 +17,5 @@
 
 ### 문제풀이
 
-- [Baekjoon](https://github.com/hyunwoome/ps-js/tree/main/src/ps/baekjoon)
-- [Programmers](https://github.com/hyunwoome/ps-js/tree/main/src/ps/programmers)
+- [Baekjoon](https://github.com/hyunwoome/ps-js/tree/main/baekjoon)
+- [Programmers](https://github.com/hyunwoome/ps-js/tree/main/programmers)
