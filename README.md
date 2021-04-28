@@ -4,6 +4,12 @@
 
 <br>
 
+### 수학
+
+- [소수 판별](https://github.com/hyunwoome/algorithm/tree/main/math/소수판별.js)
+
+<br/>
+
 ### 자료 구조
 
 - [Hash Table](https://hyunwoome.tistory.com/43)
@@ -14,9 +20,9 @@
 
 ### 알고리즘
 
-<br>
+<br/>
 
 ### 문제풀이
 
-- [Baekjoon](https://github.com/hyunwoome/ps-js/tree/main/baekjoon)
-- [Programmers](https://github.com/hyunwoome/ps-js/tree/main/programmers)
+- [Baekjoon](https://github.com/hyunwoome/algorithm/tree/main/baekjoon)
+- [Programmers](https://github.com/hyunwoome/algorithm/tree/main/programmers)
