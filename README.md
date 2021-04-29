@@ -15,6 +15,7 @@
 - [Hash Table](https://hyunwoome.tistory.com/43)
 - [Heap](https://hyunwoome.tistory.com/42)
 - [Linked List](https://hyunwoome.tistory.com/44)
+- [Stack](https://hyunwoome.tistory.com/46)
 
 <br>
 
