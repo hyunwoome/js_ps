@@ -16,6 +16,7 @@
 - [Heap](https://hyunwoome.tistory.com/42)
 - [Linked List](https://hyunwoome.tistory.com/44)
 - [Stack](https://hyunwoome.tistory.com/46)
+- [Queue](https://hyunwoome.tistory.com/47)
 
 <br>
 
@@ -27,3 +28,4 @@
 
 - [Baekjoon](https://github.com/hyunwoome/algorithm/tree/main/baekjoon)
 - [Programmers](https://github.com/hyunwoome/algorithm/tree/main/programmers)
+- [인프런](https://github.com/hyunwoome/algorithm/tree/main/inflearn)
