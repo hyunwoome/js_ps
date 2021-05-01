@@ -29,4 +29,4 @@
 
 - [Baekjoon](https://github.com/hyunwoome/algorithm/tree/main/baekjoon)
 - [Programmers](https://github.com/hyunwoome/algorithm/tree/main/programmers)
-- [인프런](https://github.com/hyunwoome/algorithm/tree/main/inflearn)
+- [Inflearn](https://github.com/hyunwoome/algorithm/tree/main/inflearn)
