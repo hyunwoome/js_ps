@@ -1,4 +1,4 @@
-// boj 11726 (126) ('/dev/stdin')
+// boj 9095 (126) ('/dev/stdin')
 const fs = require('fs');
 const input = fs
   .readFileSync('baekjoon/dp/input', 'utf8')
