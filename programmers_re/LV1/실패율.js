@@ -3,6 +3,7 @@ function solution(N, stages) {
   let arr = [];
   for (let i = 1; i <= N; i++) {
     let stageNum = stages.filter((el) => el === i).length;
+    console.log(stageNum);
     let failRatio = 0;
     if (stageNum === 0) {
       failRatio = 0;
