@@ -1,11 +1,8 @@
 function solution(seoul) {
-  var answer = 0;
   for (let i = 0; i < seoul.length; i++) {
-    if (seoul[i] === 'Kim') {
-      answer = i;
-    }
+    if (seoul[i] === 'Kim') return `김서방은 ${i}에 있다`;
   }
-  return `김서방은 ${answer}에 있다`;
 }
 
-console.log(solution(['Jane', 'Kim']));
+const seoul = ['Jane', 'Kim'];
+console.log(solution(seoul));

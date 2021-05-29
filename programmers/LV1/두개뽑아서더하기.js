@@ -1,15 +1,13 @@
 function solution(numbers) {
-  var answer = [];
-  let tmp = [];
-  for (let i = 0; i < numbers.length; i++) {
+  let answer = [];
+  for (let i = 0; i < numbers.length - 1; i++) {
     for (let j = i + 1; j < numbers.length; j++) {
-      tmp.push(numbers[i] + numbers[j]);
+      answer.push(numbers[i] + numbers[j]);
     }
   }
-  tmp.forEach((el) => {
-    if (!answer.includes(el)) answer.push(el);
-  });
-  return answer.sort((a, b) => a - b);
+  let sortSet = new Set(answer.sort((a, b) => a - b));
+  return Array.from(sortSet);
 }
 
-console.log(solution([2, 1, 3, 4, 1]));
+const numbers = [2, 1, 3, 4, 1];
+console.log(solution(numbers));

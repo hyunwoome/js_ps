@@ -1,14 +1,14 @@
 function solution(a, b) {
-  let answer = '';
-  let days = ['FRI', 'SAT', 'SUN', 'MON', 'TUE', 'WED', 'THU'];
-  let month = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-  let total = 0;
+  const days = ['FRI', 'SAT', 'SUN', 'MON', 'TUE', 'WED', 'THU'];
+  const month = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  let sum = b;
   for (let i = 0; i < a - 1; i++) {
-    total += month[i];
+    sum += month[i];
   }
-  total += b - 1;
-  answer = days[total % 7];
-  return answer;
+  if (!(sum % 7)) return days[6];
+  else return days[(sum % 7) - 1];
 }
 
-console.log(solution(5, 24));
+const a = 5;
+const b = 24;
+console.log(solution(a, b));

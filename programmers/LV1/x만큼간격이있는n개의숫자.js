@@ -1,9 +1,11 @@
 function solution(x, n) {
-  return Array(n)
-    .fill(x)
-    .map((el, index) => (index + 1) * el);
+  var answer = [];
+  for (let i = 1; i <= n; i++) {
+    answer.push(x * i);
+  }
+  return answer;
 }
 
-console.log(solution(-4, 2));
-
-// map(function(cur, index, array, thisArg))
+const x = 2;
+const n = 5;
+console.log(solution(x, n));

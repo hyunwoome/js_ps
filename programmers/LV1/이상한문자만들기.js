@@ -1,18 +1,20 @@
 function solution(s) {
-  let answer = [];
-  let splitted = s.split(' ');
-  for (let i = 0; i < splitted.length; i++) {
-    let a = '';
-    for (let j = 0; j < splitted[i].length; j++) {
+  const strArr = s.split(' ');
+  const arr = [];
+  for (let i = 0; i < strArr.length; i++) {
+    let str = '';
+    for (let j = 0; j < strArr[i].length; j++) {
       if (j % 2 === 0) {
-        a += splitted[i][j].toUpperCase();
+        str += strArr[i][j].toUpperCase();
       } else {
-        a += splitted[i][j].toLowerCase();
+        str += strArr[i][j].toLowerCase();
       }
     }
-    answer.push(a);
+    arr.push(str);
+    str = '';
   }
-  return answer.join(' ');
+  return arr.join(' ');
 }
 
-console.log(solution('try hello world'));
+const s = 'try hello world';
+console.log(solution(s));

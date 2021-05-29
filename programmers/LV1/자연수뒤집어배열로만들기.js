@@ -1,8 +1,9 @@
 function solution(n) {
-  return (n + '')
+  return String(n)
     .split('')
-    .map((el) => Number(el))
-    .reverse();
+    .reverse()
+    .map((el) => parseInt(el));
 }
 
-console.log(solution(12345));
+const n = 12345;
+console.log(solution(n));

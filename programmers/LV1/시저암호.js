@@ -1,25 +1,27 @@
 function solution(s, n) {
-  var answer = '';
-  for (let i = 0; i < s.length; i++) {
-    if (s[i] === ' ') {
+  let answer = '';
+  for (let x of s) {
+    let ascii = x.charCodeAt();
+    // 대문자
+    if (ascii >= 65 && ascii <= 90) {
+      let sum = ascii + n;
+      if (sum > 90) {
+        sum = sum - 26;
+      }
+      answer += String.fromCharCode(sum);
+    } else if (ascii >= 97 && ascii <= 122) {
+      let sum = ascii + n;
+      if (sum > 122) {
+        sum = sum - 26;
+      }
+      answer += String.fromCharCode(sum);
+    } else {
       answer += ' ';
-    } else if (s[i].charCodeAt() >= 65 && s[i].charCodeAt() <= 90) {
-      let high = s[i].charCodeAt() + n;
-      if (high > 90) {
-        answer += String.fromCharCode(high - 90 + 64);
-      } else {
-        answer += String.fromCharCode(high);
-      }
-    } else if (s[i].charCodeAt() >= 97 && s[i].charCodeAt() <= 122) {
-      let high = s[i].charCodeAt() + n;
-      if (high > 122) {
-        answer += String.fromCharCode(high - 122 + 96);
-      } else {
-        answer += String.fromCharCode(high);
-      }
     }
   }
   return answer;
 }
 
-console.log(solution('a Z z', 4));
+const s = 'a B z';
+const n = 1;
+console.log(solution(s, n));

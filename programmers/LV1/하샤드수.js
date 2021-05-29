@@ -1,6 +1,8 @@
 function solution(x) {
-  let str = (x + '').split('').reduce((acc, cur) => +acc + +cur);
-  return x % str ? false : true;
+  let arr = String(x).split('');
+  let sum = arr.reduce((acc, cur) => parseInt(acc) + parseInt(cur));
+  return x % sum === 0 ? true : false;
 }
 
-console.log(solution(13));
+const arr = 13;
+console.log(solution(arr));

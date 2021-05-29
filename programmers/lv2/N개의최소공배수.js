@@ -1,6 +1,10 @@
 function solution(arr) {
-  const gcd = (a, b) => (b ? gcd(b, a % b) : a);
+  function gcd(a, b) {
+    if (b === 0) return a;
+    else return gcd(b, a % b);
+  }
   return arr.reduce((a, b) => (a * b) / gcd(a, b));
 }
 
-console.log(solution([2, 6, 8, 14]));
+const arr = [2, 6, 8, 14];
+console.log(solution(arr));

@@ -1,29 +1,25 @@
 function solution(answers) {
-  var answer = [];
-  let one = [1, 2, 3, 4, 5];
-  let two = [2, 1, 2, 3, 2, 4, 2, 5];
-  let three = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5];
-  let count = [0, 0, 0];
+  const one = [1, 2, 3, 4, 5];
+  const two = [2, 1, 2, 3, 2, 4, 2, 5];
+  const three = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5];
+
+  let oneCount = 0;
+  let twoCount = 0;
+  let threeCount = 0;
 
   for (let i = 0; i < answers.length; i++) {
-    if (one[i % one.length] === answers[i]) {
-      count[0]++;
-    }
-    if (two[i % two.length] === answers[i]) {
-      count[1]++;
-    }
-    if (three[i % three.length] === answers[i]) {
-      count[2]++;
-    }
+    if (answers[i] === one[i % one.length]) oneCount++;
+    if (answers[i] === two[i % two.length]) twoCount++;
+    if (answers[i] === three[i % three.length]) threeCount++;
   }
-  // 가장 큰 값을 구하고, count를 순회하면서 가장 큰 값과 같다면 answer에 j + 1해서 push
-  let max = Math.max(...count);
-  for (let j = 0; j < count.length; j++) {
-    if (count[j] === max) {
-      answer.push(j + 1);
-    }
+  let count = [oneCount, twoCount, threeCount];
+  let max = Math.max(oneCount, twoCount, threeCount);
+  let answer = [];
+  for (let i = 0; i < count.length; i++) {
+    if (max === count[i]) answer.push(i + 1);
   }
   return answer;
 }
 
-console.log(solution([1, 3, 2, 4, 2]));
+const answers = [1, 3, 2, 4, 2];
+console.log(solution(answers));

@@ -1,9 +1,8 @@
 function solution(n) {
-  let str = (n + '')
-    .split('')
+  const strArr = String(n).split('');
+  const sorting = strArr
+    .map((el) => parseInt(el))
     .sort((a, b) => b - a)
     .join('');
-  return +str;
+  return Number(sorting);
 }
-
-console.log(solution(118372));

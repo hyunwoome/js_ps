@@ -1,16 +1,20 @@
 function solution(num) {
+  let answer = num;
   let count = 0;
-  let number = num;
-  while (number > 1) {
-    if (number % 2 === 0) {
-      number /= 2;
+  while (answer > 1) {
+    if (answer % 2 === 0) {
+      answer /= 2;
       count++;
     } else {
-      number = number * 3 + 1;
+      answer = answer * 3 + 1;
       count++;
     }
   }
-  return count > 500 ? -1 : count;
+  if (count >= 500) {
+    return -1;
+  }
+  return count;
 }
 
-console.log(solution(16));
+const n = 626331;
+console.log(solution(n));

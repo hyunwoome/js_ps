@@ -1,26 +1,18 @@
-function gcd(n, m) {
-  let a;
-  let b;
-  if (n > m) {
-    a = n;
-    b = m;
-  } else {
-    a = m;
-    b = n;
-  }
-  while (b > 0) {
-    let tmp = b;
-    b = a % b;
-    a = tmp;
-  }
-  return a;
-}
-
 function solution(n, m) {
-  var answer = [];
-  answer.push(gcd(n, m));
-  answer.push((n * m) / gcd(n, m));
-  return answer;
+  function gcd(a, b) {
+    let min = 1;
+    for (let i = 2; i <= Math.min(a, b); i++) {
+      if (a % i === 0 && b % i === 0) min = i;
+    }
+    return min;
+  }
+  function lcm(a, b) {
+    let g = gcd(a, b);
+    return g * (a / g) * (b / g);
+  }
+  return [gcd(n, m), lcm(n, m)];
 }
 
-console.log(solution(2, 5));
+const n = 3;
+const m = 12;
+console.log(solution(n, m));

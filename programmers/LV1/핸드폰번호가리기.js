@@ -1,11 +1,13 @@
 function solution(phone_number) {
-  let answer = '';
+  var answer = '';
   for (let i = 0; i < phone_number.length - 4; i++) {
     answer += '*';
   }
-  let splitted = phone_number.split('').splice(-4, 4).join('');
-  answer += splitted;
+  for (let i = phone_number.length - 4; i < phone_number.length; i++) {
+    answer += phone_number[i];
+  }
   return answer;
 }
 
-console.log(solution('01033334444'));
+const phone_number = '027778888';
+console.log(solution(phone_number));

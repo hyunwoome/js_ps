@@ -1,12 +1,17 @@
 function solution(strings, n) {
-  return strings.sort((a, b) => {
-    const tmp = a[n].localeCompare(b[n]);
-    console.log(tmp);
-    if (tmp === 0) {
-      return a.localeCompare(b);
-    }
-    return tmp;
-  });
+  var answer = [];
+  for (let i = 0; i < strings.length; i++) {
+    let index = strings[i][n];
+    strings[i] = index + strings[i];
+  }
+  strings.sort();
+  for (let i = 0; i < strings.length; i++) {
+    strings[i] = strings[i].replace(strings[i][0], '');
+    answer.push(strings[i]);
+  }
+  return answer;
 }
 
-console.log(solution(['sun', 'bed', 'car'], 1));
+const strings = ['sun', 'bed', 'car'];
+const n = 1;
+console.log(solution(strings, n));

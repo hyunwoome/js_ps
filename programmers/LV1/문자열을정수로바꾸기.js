@@ -1,5 +1,3 @@
 function solution(s) {
-  return +s;
+  return Number(s);
 }
-
-console.log(solution('-1234'));

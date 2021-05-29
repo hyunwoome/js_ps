@@ -1,18 +1,11 @@
 function solution(s) {
-  let answer = true;
-  if (s.length === 4 || s.length === 6) {
-    for (let i = 0; i < s.length; i++) {
-      if (isNaN(Number(s[i]))) {
-        answer = false;
-        break;
-      } else {
-        answer = true;
-      }
-    }
-  } else {
-    answer = false;
+  var answer = true;
+  if (!(s.length === 4 || s.length === 6)) return false;
+  for (const str of s) {
+    if (isNaN(str)) return false;
   }
   return answer;
 }
 
-console.log(solution('12134a'));
+const s = '12345';
+console.log(solution(s));

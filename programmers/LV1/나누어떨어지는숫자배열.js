@@ -1,11 +1,13 @@
 function solution(arr, divisor) {
   var answer = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] % divisor === 0) {
-      answer.push(arr[i]);
-    }
+  let sortArr = arr.sort((a, b) => a - b);
+  for (let i = 0; i < sortArr.length; i++) {
+    if (!(sortArr[i] % divisor)) answer.push(sortArr[i]);
   }
-  return answer.length === 0 ? [-1] : answer.sort((a, b) => a - b);
+  if (answer.length) return answer;
+  else return [-1];
 }
 
-console.log(solution([3, 2, 6], 5));
+const arr = [5, 9, 7, 10];
+const divisor = 5;
+console.log(solution(arr, divisor));

@@ -1,12 +1,9 @@
 function solution(n) {
-  let answer = 0;
-  let str = String(n);
-  for (let i = 0; i < str.length; i++) {
-    answer += Number(str[i]);
-  }
-  return answer;
+  const numArr = String(n)
+    .split('')
+    .map((el) => parseInt(el));
+  return numArr.reduce((acc, cur) => acc + cur);
 }
 
-console.log(solution(123));
-
-console.log((123 + '').split('').reduce((acc, cur) => acc + parseInt(cur), 0));
+const n = 123;
+console.log(solution(n));

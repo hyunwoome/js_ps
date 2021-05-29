@@ -1,14 +1,39 @@
 function solution(lottos, win_nums) {
-  const rank = [6, 6, 5, 4, 3, 2, 1];
-
-  let minCount = lottos.filter((v) => win_nums.includes(v)).length;
-  let zeroCount = lottos.filter((v) => !v).length;
-
-  const maxCount = minCount + zeroCount;
-
-  return [rank[maxCount], rank[minCount]];
+  let max = 0;
+  let min = 0;
+  for (let i = 0; i < lottos.length; i++) {
+    if (lottos.includes(win_nums[i])) {
+      max++, min++;
+    }
+    if (lottos[i] === 0) {
+      max++;
+    }
+  }
+  function rank(num) {
+    let answer = 0;
+    switch (num) {
+      case 6:
+        answer = 1;
+        break;
+      case 5:
+        answer = 2;
+        break;
+      case 4:
+        answer = 3;
+        break;
+      case 3:
+        answer = 4;
+        break;
+      case 2:
+        answer = 5;
+        break;
+      default:
+        answer = 6;
+    }
+    return answer;
+  }
+  let answer = [];
+  answer.push(rank(max));
+  answer.push(rank(min));
+  return answer;
 }
-
-const lottos = [44, 1, 0, 0, 31, 25];
-const win_nums = [31, 10, 45, 1, 6, 19];
-console.log(solution(lottos, win_nums));

@@ -1,11 +1,14 @@
 function solution(participant, completion) {
-  let sortPar = participant.sort();
-  let sortCom = completion.sort();
-  for (let i = 0; i < sortPar.length; i++) {
-    if (sortPar[i] !== sortCom[i]) {
-      return sortPar[i];
+  participant.sort();
+  completion.sort();
+  for (let i = 0; i < completion.length; i++) {
+    if (participant.indexOf(completion[i]) !== -1) {
+      participant.splice(participant.indexOf(completion[i]), 1);
     }
   }
+  return participant.join('');
 }
 
-console.log(solution(['leo', 'kiki', 'eden'], ['eden', 'kiki']));
+const participant = ['mislav', 'stanko', 'mislav', 'ana'];
+const completion = ['stanko', 'ana', 'mislav'];
+console.log(solution(participant, completion));

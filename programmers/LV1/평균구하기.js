@@ -1,5 +1,6 @@
 function solution(arr) {
-  return arr.reduce((acc, cur) => acc + cur) / arr.length;
+  return arr.reduce((cur, acc) => cur + acc) / arr.length;
 }
 
-console.log(solution([1, 2, 3, 4]));
+const arr = [1, 2, 3, 4];
+console.log(solution(arr));

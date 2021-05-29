@@ -1,19 +1,18 @@
 function solution(n) {
-  let answer = n;
-  while (true) {
-    answer++;
-    let binaryNumCount = n
-      .toString(2)
-      .split('')
-      .filter((el) => el === '1').length;
-    let binaryAnswerCount = answer
-      .toString(2)
-      .split('')
-      .filter((el) => el === '1').length;
-    if (binaryAnswerCount === binaryNumCount) break;
+  function countBit(num) {
+    let answer = 0;
+    let binary = num.toString(2);
+    for (let i = 0; i < binary.length; i++) {
+      if (binary[i] === '1') answer++;
+    }
+    return answer;
   }
-  return answer;
+
+  for (let i = n + 1; i < 1000000; i++) {
+    let bits = countBit(n);
+    if (bits === countBit(i)) return i;
+  }
 }
 
-console.log(solution(78));
-console.log(solution(15));
+const n = 78;
+console.log(solution(n));

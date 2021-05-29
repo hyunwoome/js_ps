@@ -1,7 +1,12 @@
 function solution(arr) {
-  let min = Math.min(...arr);
-  let del = arr.splice(arr.indexOf(min), 1);
-  return arr.length ? arr : [-1];
+  if (arr.length !== 1) {
+    let minIdx = arr.indexOf(Math.min(...arr));
+    arr.splice(minIdx, 1);
+    return arr;
+  } else {
+    return [-1];
+  }
 }
 
-console.log(solution([4, 3, 2, 1]));
+const arr = [4, 3, 2, 1];
+console.log(solution(arr));

@@ -1,12 +1,11 @@
 function solution(s) {
-  const stack = [];
-  const strToArray = [...s];
-  if (strToArray[0] === ')') return false;
-  strToArray.map((el) => {
-    if (el === '(') stack.push('(');
-    if (el === ')') stack.pop(stack.length - 1);
-  });
+  let stack = [];
+  for (let x of s) {
+    if (stack[stack.length - 1] === '(' && x === ')') stack.pop();
+    else stack.push(x);
+  }
   return stack.length ? false : true;
 }
 
-console.log(solution('(()('));
+const s = '()()';
+console.log(solution(s));

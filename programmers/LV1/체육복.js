@@ -1,32 +1,26 @@
 function solution(n, lost, reserve) {
-  let count = 0;
-  let ans = Array(n).fill(1);
+  // 중복 제거
+  const realReserve = reserve.filter((el) => lost.indexOf(el) === -1);
+  const realLost = lost.filter((el) => reserve.indexOf(el) === -1);
 
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < lost.length; j++) {
-      if (i + 1 === lost[j]) ans[i] = 0;
-    }
-    for (let j = 0; j < reserve.length; j++) {
-      if (i + 1 === reserve[j]) ans[i] += 1;
-    }
-  }
-  for (let i = 0; i < n; i++) {
-    if (ans[i] === 0 && ans[i - 1] === 2) {
-      ans[i - 1] = 1;
-      ans[i] = 1;
-    } else if (ans[i] === 0 && ans[i + 1] === 2) {
-      ans[i + 1] = 1;
-      ans[i] = 1;
+  const set = Array(n)
+    .fill(0)
+    .map((_, i) => (realLost.indexOf(i + 1) === -1 ? true : false));
+
+  // set =  [true, false, true, false, true ]
+  // [1, 3, 5]
+  for (let hero of realReserve) {
+    if (set[hero - 1 - 1] === false) {
+      set[hero - 1 - 1] = true;
+    } else if (set[hero - 1 + 1] === false) {
+      set[hero - 1 + 1] = true;
     }
   }
-  for (let i = 0; i < n; i++) {
-    if (ans[i] > 0) count++;
-  }
-  return count;
+  // set = [ true, true, true, true, true ]
+  return set.filter((el) => el).length;
 }
 
-console.log(solution(5, [2, 4], [3]));
-
-// n : 전체학생
-// lost : 도난당한 학생
-// reserve : 여벌의 체육복을 가지고 있는 학생
+const n = 5;
+const lost = [2, 4];
+const reserve = [1, 3, 5];
+console.log(solution(n, lost, reserve));

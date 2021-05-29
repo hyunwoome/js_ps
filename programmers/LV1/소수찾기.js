@@ -1,15 +1,21 @@
 function solution(n) {
-  let arr = Array(n + 1).fill(true);
-  arr[0] = arr[1] = false;
-  for (let i = 2; i <= n; i++) {
-    if (arr[i]) {
-      for (let j = i + i; j <= n; j += i) {
-        arr[j] = false;
-      }
+  let answer = 0;
+  function isPrime(n) {
+    if (n <= 1) return false;
+    if (n === 2 || n === 3) return true;
+    if (n % 2 === 0) return false;
+    let divisor = 3;
+    while (n > divisor) {
+      if (n % divisor === 0) return false;
+      divisor += 2;
     }
+    return true;
   }
-  console.log(arr);
-  return arr.filter((e) => e).length;
+  for (let i = 0; i <= n; i++) {
+    if (isPrime(i)) answer += 1;
+  }
+  return answer;
 }
 
-console.log(solution(12));
+const n = 10;
+console.log(solution(n));
