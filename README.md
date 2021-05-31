@@ -15,4 +15,8 @@
 
 ### Programmers 고득점 Kit
 
-- [해시](https://github.com/hyunwoome/algorithm/tree/main/programmers_kit/hash)
+- [해시](https://github.com/hyunwoome/algorithm/tree/main/programmers_kit/Hash)
+- [스택/큐](https://github.com/hyunwoome/algorithm/tree/main/programmers_kit/Stack_Queue)
+- [정렬](https://github.com/hyunwoome/
+  algorithm/tree/main/programmers_kit/Sort)
+- [완전탐색](https://github.com/hyunwoome/algorithm/tree/main/programmers_kit/BF)
