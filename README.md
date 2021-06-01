@@ -4,6 +4,12 @@
 
 <br>
 
+### 자바스크립트 문제풀이를 위한 메서드 정리
+
+- [자바스크립트 문제풀이를 위한 메서드](https://github.com/hyunwoome/algorithm/tip/tip.md)
+
+<br>
+
 ### 문제풀이
 
 - [Baekjoon](https://github.com/hyunwoome/algorithm/tree/main/baekjoon)
@@ -17,6 +23,5 @@
 
 - [해시](https://github.com/hyunwoome/algorithm/tree/main/programmers_kit/Hash)
 - [스택/큐](https://github.com/hyunwoome/algorithm/tree/main/programmers_kit/Stack_Queue)
-- [정렬](https://github.com/hyunwoome/
-  algorithm/tree/main/programmers_kit/Sort)
+- [정렬](https://github.com/hyunwoome/algorithm/tree/main/programmers_kit/Sort)
 - [완전탐색](https://github.com/hyunwoome/algorithm/tree/main/programmers_kit/BF)
