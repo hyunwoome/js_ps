@@ -1,5 +1,15 @@
 ## 배열
 
+### 빈 이중배열 만들기
+
+```js
+const empty2DArray = [...Array(input[0].length)].map(() =>
+  Array(input.length).fill(0),
+);
+```
+
+<br>
+
 ### `splice()`
 
 - **배열 자르기**
@@ -15,24 +25,16 @@ array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
 // 예시
 const months = ['Jan', 'March', 'April', 'June'];
 months.splice(1, 0, 'Feb');
-// 배열의 변경을 시작할 인덱스: 1
-// 제거할 요소의 수: 0
-// 추가할 요소: 'Feb'
 console.log(months);
 // ["Jan", "Feb", "March", "April", "June"]
 
 months.splice(4, 1, 'May');
-// 배열의 변경을 시작할 인덱스: 4
-// 제거할 요소의 수: 1
-// 추가할 요소: 'May'
 console.log(months);
 // ["Jan", "Feb", "March", "April", "May"]
 
 console.log(months.splice(0, 2));
-// splice는 0부터 2까지 자른 요소를 반환한다. (0 < 2)
 // [ 'Jan', 'Feb' ]
 console.log(months);
-// splice를 한 원본 배열은 잘려진 나머지가 남게된다.
 // [ 'March', 'April', 'May' ]
 ```
 
