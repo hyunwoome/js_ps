@@ -5,9 +5,6 @@ const input = require('fs')
   .trim()
   .split('\n');
 
-// 배 (0)
-// 등 (1)
-
 input.forEach((nums) => {
   nums.split(' ');
   let oneCount = 0;
