@@ -10,4 +10,5 @@
 
 #### 자바스크립트 자료구조
 
-- [연결 리스트]()
+- [연결 리스트](https://github.com/hyunwoome/algorithm/blob/main/src/DataStructure/LinkedList.js)
+- [스택](https://github.com/hyunwoome/algorithm/blob/main/src/DataStructure/Stack.js)
