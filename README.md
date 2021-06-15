@@ -10,7 +10,7 @@
 
 ### 수학
 
-- [1부터 N까지의 합]
+- [1부터 N까지의 합](https://github.com/hyunwoome/algorithm/tree/main/docs/Math/1%EB%B6%80%ED%84%B0N%EA%B9%8C%EC%A7%80%EC%9D%98%ED%95%A9)
 
 <br>
 
