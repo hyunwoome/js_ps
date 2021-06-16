@@ -8,8 +8,8 @@
 
 - [🥉 2309. 일곱 난쟁이](https://www.acmicpc.net/problem/2309) ✔️
 - [🥉 2231. 분해합](https://www.acmicpc.net/problem/2231) ✔️
+- [🥉 10448. 유레카 이론](https://www.acmicpc.net/problem/10448) ✔️
 - [🥈 3085. 사탕 게임](https://www.acmicpc.net/problem/3085)
-- [🥉 10448. 유레카 이론](https://www.acmicpc.net/problem/10448)
 - [🥈 2503. 숫자 야구](https://www.acmicpc.net/problem/2503)
 - [🥈 1018. 체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
 - [🥈 1182. 부분수열의 합](https://www.acmicpc.net/problem/1182)
