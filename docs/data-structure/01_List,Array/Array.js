@@ -39,26 +39,26 @@ class Array {
   }
 }
 
-const array = new Array();
+const testArray = new Array();
 
-array.push(1);
-array.push(2);
-array.push(3);
-array.push(4);
-array.push(5);
-console.log(array);
+testArray.push(1);
+testArray.push(2);
+testArray.push(3);
+testArray.push(4);
+testArray.push(5);
+console.log(testArray);
 // Array { length: 5, data: { '0': 1, '1': 2, '2': 3, '3': 4, '4': 5 } }
 
-array.pop();
-console.log(array);
+testArray.pop();
+console.log(testArray);
 // Array { length: 4, data: { '0': 1, '1': 2, '2': 3, '3': 4 } }
 
-array.insertAt(0, 0);
-console.log(array);
+testArray.insertAt(0, 0);
+console.log(testArray);
 // Array { length: 5, data: { '0': 0, '1': 1, '2': 2, '3': 3, '4': 4 } }
 
-array.deleteAt(0);
-console.log(array);
+testArray.deleteAt(0);
+console.log(testArray);
 // Array { length: 4, data: { '0': 1, '1': 2, '2': 3, '3': 4 } }
 
-console.log(array.getElementAtIndex(3)); // 4
+console.log(testArray.getElementAtIndex(3)); // 4

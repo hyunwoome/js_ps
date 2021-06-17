@@ -192,31 +192,31 @@ class LinkedList {
   }
 }
 
-const newArr = new LinkedList();
+const testLinkedList = new LinkedList();
 
-console.log(newArr.isEmpty()); // true
+console.log(testLinkedList.isEmpty()); // true
 
-newArr.add(10);
+testLinkedList.add(10);
 
-newArr.printList(); // 10
+testLinkedList.printList(); // 10
 
-newArr.size_of_list(); // 1
+testLinkedList.size_of_list(); // 1
 
-newArr.add(20);
-newArr.add(30);
-newArr.add(40);
-newArr.add(50);
+testLinkedList.add(20);
+testLinkedList.add(30);
+testLinkedList.add(40);
+testLinkedList.add(50);
 
-newArr.printList(); // 10 20 30 40 50
+testLinkedList.printList(); // 10 20 30 40 50
 
-newArr.removeElement(50);
+testLinkedList.removeElement(50);
 
-newArr.printList(); // 10 20 30 40
+testLinkedList.printList(); // 10 20 30 40
 
-newArr.insertAt(60, 2);
+testLinkedList.insertAt(60, 2);
 
-newArr.printList(); // 10 20 60 30 40
+testLinkedList.printList(); // 10 20 60 30 40
 
-newArr.removeFrom(3);
+testLinkedList.removeFrom(3);
 
-newArr.printList(); // 10 20 60 40
+testLinkedList.printList(); // 10 20 60 40

@@ -10,5 +10,7 @@
 
 ### 자료구조
 
-- [01. 리스트, 배열](https://github.com/hyunwoome/algorithm/tree/main/docs/DataStructure/01.%20List%2C%20Array)
-- [02. 연결 리스트](https://github.com/hyunwoome/algorithm/tree/main/docs/DataStructure/02.%20LinkedList)
+- [01. 리스트, 배열](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/01_List,Array)
+- [02. 연결 리스트](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/02_LinkedList)
+- [03. 스택](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/03_Stack)
+- [04. 큐](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/04_Queue)
