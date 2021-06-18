@@ -16,3 +16,4 @@
 - [04. 큐](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/04_Queue)
 - [05. 해시테이블](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/05_HashTable)
 - [06. 우선순위 큐](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/06_PriorityQueue)
+- [07. 이진 탐색 트리](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/07_BinarySearchTree)
