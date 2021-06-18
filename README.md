@@ -8,10 +8,11 @@
 
 <br>
 
-### 자료구조
+## 자료구조
 
 - [01. 리스트, 배열](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/01_List,Array)
 - [02. 연결 리스트](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/02_LinkedList)
 - [03. 스택](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/03_Stack)
 - [04. 큐](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/04_Queue)
-- [05. 해시테이블](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/05_Hash)
+- [05. 해시테이블](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/05_HashTable)
+- [06. 우선순위 큐](https://github.com/hyunwoome/algorithm/tree/main/docs/data-structure/06_PriorityQueue)
