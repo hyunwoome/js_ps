@@ -1,12 +1,20 @@
-let maxDepth = (s) => {
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var maxDepth = function (s) {
+  let parenthesesArr = [];
   let sum = 0;
-  let arr = [];
   for (let i = 0; i < s.length; i++) {
-    if (s[i] === '(') arr.push(sum++);
-    else if (s[i] === ')') arr.push(sum--);
-    else arr.push(0);
+    if (s[i] === '(') {
+      sum++;
+      parenthesesArr.push(sum);
+    } else if (s[i] === ')') {
+      sum--;
+      parenthesesArr.push(sum);
+    }
   }
-  return Math.max(...arr);
+  return parenthesesArr.length ? Math.max(...parenthesesArr) : 0;
 };
 
 const s = '1';

@@ -1,19 +1,14 @@
-var rangeSumBST = function (root, L, R) {
-  var sum = 0;
-  if (root == null) {
-    return sum;
-  }
-
-  if (root.val > L) {
-    sum += rangeSumBST(root.left, L, R);
-  }
-  if (root.val <= R && root.val >= L) {
-    sum += root.val;
-  }
-  if (root.val < R) {
-    sum += rangeSumBST(root.right, L, R);
-  }
-
+const rangeSumBST = (root, low, high) => {
+  let sum = 0;
+  const traverse = (node) => {
+    if (!node) return;
+    if (node.val >= low && node.val <= high) {
+      sum += node.val;
+    }
+    traverse(node.left);
+    traverse(node.right);
+  };
+  traverse(root);
   return sum;
 };
 

@@ -3,12 +3,8 @@
  * @return {boolean}
  */
 var checkIfPangram = function (sentence) {
-  const alphabet = 'abcdefghijklmnopqrstuvwxyz';
-  const answer = [];
-  for (const char of alphabet) {
-    if (!sentence.includes(char)) answer.push(char);
-  }
-  return answer.length ? false : true;
+  let set = new Set(sentence.split(''));
+  return set.size === 26;
 };
 
 const sentence = 'thequickbrownfoxjumpsoverthelazydog';
