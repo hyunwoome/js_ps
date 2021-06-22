@@ -3,23 +3,24 @@
  * @return {string}
  */
 var removeOuterParentheses = function (s) {
-  let count = 0;
-  let result = '';
-  for (const letter of s) {
-    if (letter === '(') {
-      if (count !== 0) {
-        result += letter;
-      }
-      count++;
-    } else {
-      count--;
-      if (count !== 0) {
-        result += letter;
-      }
+  let answer = '';
+  let sum = 0;
+  for (const char of s) {
+    if (char === '(' && sum > 0) {
+      answer += '(';
+    }
+    if (char === '(') {
+      sum++;
+    }
+    if (char === ')' && sum > 1) {
+      answer += ')';
+    }
+    if (char === ')') {
+      sum--;
     }
   }
-  return result;
+  return answer;
 };
 
-const s = '(()())(())';
+const s = '(()())(())(()(()))';
 console.log(removeOuterParentheses(s));

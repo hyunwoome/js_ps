@@ -5,10 +5,13 @@
 var replaceDigits = function (s) {
   let answer = '';
   for (let i = 0; i < s.length; i++) {
-    if (s[i] >= 'a' && s[i] <= 'z') {
-      answer += s[i];
+    if (s[i] >= 0 && s[i] <= 9) {
+      let code = s[i - 1].charCodeAt(0);
+      let str = code + Number(s[i]);
+      if (str > 122) str -= 26;
+      answer += String.fromCharCode(str);
     } else {
-      answer += String.fromCharCode(s[i - 1].charCodeAt(0) + parseInt(s[i]));
+      answer += s[i];
     }
   }
   return answer;

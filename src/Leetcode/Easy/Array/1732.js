@@ -3,14 +3,13 @@
  * @return {number}
  */
 var largestAltitude = function (gain) {
-  let arr = [0];
-  let tmp = 0;
+  let answer = [0];
+  let sum = 0;
   for (let i = 0; i < gain.length; i++) {
-    tmp += gain[i];
-    arr.push(tmp);
+    answer.push((sum += gain[i]));
   }
-  return Math.max(...arr);
+  return Math.max(...answer);
 };
 
-const gain = [-4, -3, -2, -1, 4, 3, 2];
+const gain = [-5, 1, 5, 0, -7];
 console.log(largestAltitude(gain));

@@ -3,13 +3,13 @@
  * @return {string}
  */
 var sortSentence = function (s) {
-  const splittedSentence = s.split(' ');
-  const sortedNumber = splittedSentence.sort(
-    (a, b) => a[a.length - 1] - b[b.length - 1],
-  );
-  const removeNumber = sortedNumber.join(' ').replace(/[0-9]/g, '');
-  return removeNumber;
+  return s
+    .split(' ')
+    .sort((a, b) => a[a.length - 1] - b[b.length - 1])
+    .map((el) => el.slice(0, el.length - 1))
+    .join(' ');
 };
 
-const s = 'is2 sentence4 This1 a3';
+const s = 'Myself2 Me1 I4 and3';
+// const s = 'z3 z2 z1';
 console.log(sortSentence(s));

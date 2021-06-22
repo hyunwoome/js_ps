@@ -1,15 +1,29 @@
+/**
+ * @param {number[]} arr
+ * @return {number}
+ */
+// var sumOddLengthSubarrays = function (arr) {
+//   let answer = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     let odd = 0;
+//     let sum = 0;
+//     for (let j = i; j < arr.length; j++) {
+//       odd++;
+//       sum += arr[j];
+//       if (odd % 2) answer.push(sum);
+//     }
+//   }
+//   return answer.reduce((acc, cur) => acc + cur);
+// };
+
 var sumOddLengthSubarrays = function (arr) {
-  let count = 0;
-  for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr.length; j++) {
-      if ((i - j) % 2 === 0) {
-        for (let k = i; k <= j; k++) {
-          count += arr[k];
-        }
-      }
-    }
+  let sum = 0;
+  const len = arr.length;
+  for (let i = 0; i < len; i++) {
+    const total = i * (len - i) + (len - i);
+    sum += Math.ceil(total / 2) * arr[i];
   }
-  return count;
+  return sum;
 };
 
 const arr = [1, 4, 2, 5, 3];

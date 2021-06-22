@@ -1,12 +1,19 @@
+/**
+ * @param {string} allowed
+ * @param {string[]} words
+ * @return {number}
+ */
 var countConsistentStrings = function (allowed, words) {
-  let arrAllowed = allowed.split('');
+  function isValid(str) {
+    for (let i = 0; i < str.length; i++) {
+      if (!allowed.includes(str[i])) return false;
+    }
+    return true;
+  }
+
   let answer = 0;
   for (let i = 0; i < words.length; i++) {
-    let stack = [];
-    for (let j = 0; j < words[i].length; j++) {
-      if (arrAllowed.includes(words[i][j])) stack.push(1);
-    }
-    if (stack.length === words[i].length) answer++;
+    if (isValid(words[i])) answer++;
   }
   return answer;
 };

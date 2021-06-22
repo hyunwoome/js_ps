@@ -3,19 +3,18 @@
  * @return {number}
  */
 var numberOfMatches = function (n) {
-  let num = n;
   let matches = 0;
-  while (num > 1) {
-    if (num % 2 === 0) {
-      matches += num / 2;
-      num = num - num / 2;
+  while (n !== 1) {
+    if (n % 2 !== 0) {
+      matches += Math.floor(n / 2);
+      n = Math.ceil(n / 2);
     } else {
-      matches += parseInt(num / 2);
-      num = num - parseInt(num / 2);
+      matches += n / 2;
+      n /= 2;
     }
   }
   return matches;
 };
 
-const n = 7;
+const n = 14;
 console.log(numberOfMatches(n));

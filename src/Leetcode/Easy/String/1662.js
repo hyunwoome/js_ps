@@ -4,10 +4,7 @@
  * @return {boolean}
  */
 var arrayStringsAreEqual = function (word1, word2) {
-  let word1Str = word1.join('');
-  let word2Str = word2.join('');
-  if (word1Str === word2Str) return true;
-  else return false;
+  return word1.join('') === word2.join('');
 };
 
 const word1 = ['ab', 'c'];

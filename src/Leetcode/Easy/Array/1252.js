@@ -5,31 +5,32 @@
  * @return {number}
  */
 var oddCells = function (m, n, indices) {
-  const matrix = new Array(m).fill(0).map(() => new Array(n).fill(0));
+  let gridArray = new Array(m).fill(0).map(() => new Array(n).fill(0));
+  indices.forEach((arr) => {
+    let row = arr[0];
+    let col = arr[1];
 
-  indices.forEach((index) => {
-    let row = index[0];
-    let col = index[1];
-
+    // col
     for (let i = 0; i < m; i++) {
-      matrix[i][col]++;
+      gridArray[i][col]++;
     }
+    // row
     for (let i = 0; i < n; i++) {
-      matrix[row][i]++;
+      gridArray[row][i]++;
     }
   });
 
-  let count = 0;
-  for (let i = 0; i < matrix.length; i++) {
-    for (let j = 0; j < matrix[i].length; j++) {
-      if (matrix[i][j] % 2) count++;
+  let answer = 0;
+  for (let i = 0; i < gridArray.length; i++) {
+    for (let j = 0; j < gridArray[i].length; j++) {
+      if (gridArray[i][j] % 2) answer++;
     }
   }
-  return count;
+  return answer;
 };
 
-const m = 2; // row
-const n = 3; // col
+const m = 2;
+const n = 3;
 const indices = [
   [0, 1],
   [1, 1],

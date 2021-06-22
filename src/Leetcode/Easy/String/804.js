@@ -3,6 +3,7 @@
  * @return {number}
  */
 var uniqueMorseRepresentations = function (words) {
+  let answer = new Set();
   const morse = [
     '.-',
     '-...',
@@ -31,21 +32,15 @@ var uniqueMorseRepresentations = function (words) {
     '-.--',
     '--..',
   ];
-
-  let arr = [];
   for (let i = 0; i < words.length; i++) {
-    let tmp = '';
-    for (let x of words[i]) {
-      let map = x.charCodeAt() - 97;
-      tmp += morse[map];
+    let word = '';
+    for (let j = 0; j < words[i].length; j++) {
+      let asciiNums = words[i][j].charCodeAt() - 97;
+      word += morse[asciiNums];
     }
-    arr.push(tmp);
-    tmp = '';
+    answer.add(word);
   }
-
-  let set = new Set(arr);
-
-  return set.size;
+  return answer.size;
 };
 
 const words = ['gin', 'zen', 'gig', 'msg'];

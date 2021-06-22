@@ -4,9 +4,12 @@
  * @return {string}
  */
 var truncateSentence = function (s, k) {
-  const splittedArray = s.split(' ');
-  const sliceArray = splittedArray.slice(0, k);
-  return sliceArray.join(' ');
+  let answer = [];
+  const splitArray = s.split(' ');
+  for (let i = 0; i < k; i++) {
+    answer.push(splitArray[i]);
+  }
+  return answer.join(' ');
 };
 
 const s = 'Hello how are you Contestant';
