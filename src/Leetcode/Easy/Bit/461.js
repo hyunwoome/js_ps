@@ -8,8 +8,11 @@ var hammingDistance = function (x, y) {
   let yBit = y.toString(2);
   let count = 0;
 
-  if (xBit.length > yBit.length) yBit = yBit.padStart(xBit.length, 0);
-  else xBit = xBit.padStart(yBit.length, 0);
+  if (xBit.length > yBit.length) {
+    yBit = yBit.padStart(xBit.length, 0);
+  } else {
+    xBit = xBit.padStart(yBit.length, 0);
+  }
 
   for (let i = 0; i < xBit.length; i++) {
     if (xBit[i] !== yBit[i]) count++;

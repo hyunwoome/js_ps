@@ -5,7 +5,7 @@
  */
 var mergeAlternately = function (word1, word2) {
   let answer = '';
-  if (word1.length >= word2.length) {
+  if (word1.length > word2.length) {
     for (let i = 0; i < word1.length; i++) {
       if (word2[i] !== undefined) {
         answer += word1[i];
@@ -27,6 +27,6 @@ var mergeAlternately = function (word1, word2) {
   return answer;
 };
 
-const word1 = 'abcd';
-const word2 = 'pq';
+const word1 = 'ab';
+const word2 = 'pqrs';
 console.log(mergeAlternately(word1, word2));

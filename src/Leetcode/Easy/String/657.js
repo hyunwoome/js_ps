@@ -3,17 +3,20 @@
  * @return {boolean}
  */
 var judgeCircle = function (moves) {
-  let x = 0;
-  let y = 0;
-  for (let str of moves) {
-    if (str === 'L') x -= 1;
-    if (str === 'R') x += 1;
-    if (str === 'U') y += 1;
-    if (str === 'D') y -= 1;
+  let pos = [0, 0];
+  for (let i = 0; i < moves.length; i++) {
+    if (moves[i] === 'U') {
+      pos[0] += 1;
+    } else if (moves[i] === 'D') {
+      pos[0] -= 1;
+    } else if (moves[i] === 'R') {
+      pos[1] += 1;
+    } else if (moves[i] === 'L') {
+      pos[1] -= 1;
+    }
   }
-  if (x === 0 && y === 0) return true;
-  else return false;
+  return pos[0] === 0 && pos[1] === 0;
 };
 
-const moves = 'UD';
+const moves = 'RRDD';
 console.log(judgeCircle(moves));

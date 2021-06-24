@@ -4,25 +4,29 @@
  * @return {number}
  */
 var maximumUnits = function (boxTypes, truckSize) {
-  boxTypes.sort((a, b) => b[1] - a[1]);
+  let sortingArr = boxTypes.sort((a, b) => {
+    return b[1] - a[1];
+  });
 
-  let units = 0;
-
-  for (const [boxes, boxUnits] of boxTypes) {
-    if (!truckSize) return units;
-    const boxToPlaces = Math.min(truckSize, boxes);
-    truckSize -= boxToPlaces;
-    units += boxToPlaces * boxUnits;
+  let answer = 0;
+  for (let i = 0; i < sortingArr.length; i++) {
+    if (sortingArr[i][0] <= truckSize) {
+      answer += sortingArr[i][0] * sortingArr[i][1];
+      truckSize -= sortingArr[i][0];
+    } else {
+      answer += sortingArr[i][1] * truckSize;
+      truckSize -= truckSize;
+      if (truckSize === 0) break;
+    }
   }
-  return units;
+  return answer;
 };
 
-// 5, 3, 4, 2
 const boxTypes = [
-  [5, 10],
-  [2, 5],
-  [4, 7],
-  [3, 9],
+  [1, 3],
+  [2, 2],
+  [3, 1],
 ];
-const truckSize = 10;
+const truckSize = 4;
+// [박스의 개수, 한 박스당 유닛의 개수]
 console.log(maximumUnits(boxTypes, truckSize));
