@@ -2,28 +2,18 @@
  * @param {string} coordinates
  * @return {boolean}
  */
-
-// a = 97 (홀수)
-// 1 = (홀수)
-
-// 홀수 && 홀수 = 검정
-// 짝수 && 짝수 = 검정
-
-// 홀수 && 짝수 = 흰색
-// 짝수 && 홀수 = 흰색
-
 var squareIsWhite = function (coordinates) {
-  let ascii = coordinates[0].charCodeAt(0);
-  let num = coordinates[1];
+  let one = coordinates[0].charCodeAt(0) - 96;
+  let two = Number(coordinates[1]);
 
-  if (ascii % 2 !== 0 && num % 2 !== 0) {
-    return false;
-  } else if (ascii % 2 === 0 && num % 2 === 0) {
-    return false;
-  } else if (ascii % 2 !== 0 && num % 2 === 0) {
-    return true;
-  } else return true;
+  if (one % 2 && two % 2) return false;
+  else if (!(one % 2) && !(two % 2)) return false;
+  else if (!(one % 2) && two % 2) return true;
+  else return true;
 };
 
-const coordinates = 'c2'; // 홀짝 // 99, 2
+const coordinates = 'a1';
 console.log(squareIsWhite(coordinates));
+
+// black = false;
+// white = true;

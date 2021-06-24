@@ -7,9 +7,9 @@
 var busyStudent = function (startTime, endTime, queryTime) {
   let answer = 0;
   for (let i = 0; i < startTime.length; i++) {
-    if (queryTime >= startTime[i] && queryTime <= endTime[i]) {
-      answer++;
-    }
+    let start = startTime[i];
+    let end = endTime[i];
+    if (queryTime >= start && queryTime <= end) answer++;
   }
   return answer;
 };

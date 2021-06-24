@@ -3,16 +3,21 @@
  * @return {number}
  */
 var maximum69Number = function (num) {
-  let arr = num.toString().split('');
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === '6') {
-      arr[i] = '9';
+  let str = String(num);
+  let answer = '';
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === '6') {
+      answer += '9';
       break;
-    } else if (arr.indexOf('9') === -1) {
-      return num;
+    } else {
+      answer += str[i];
     }
   }
-  return parseInt(arr.join(''));
+  if (answer.length !== str.length) {
+    let len = answer.length;
+    answer += str.substring(len);
+  }
+  return Number(answer);
 };
 
 const num = 9669;

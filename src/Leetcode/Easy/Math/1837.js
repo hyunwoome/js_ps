@@ -4,11 +4,12 @@
  * @return {number}
  */
 var sumBase = function (n, k) {
-  let base = n
-    .toString(k)
-    .split('')
-    .map((el) => parseInt(el));
-  return base.reduce((acc, cur) => acc + cur);
+  const digits = n.toString(k);
+  let answer = 0;
+  for (const num of digits) {
+    answer += Number(num);
+  }
+  return answer;
 };
 
 const n = 34;

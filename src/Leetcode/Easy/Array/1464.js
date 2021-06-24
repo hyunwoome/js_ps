@@ -3,12 +3,12 @@
  * @return {number}
  */
 var maxProduct = function (nums) {
-  const maxOne = Math.max(...nums);
-  const maxIndex = nums.indexOf(maxOne);
-  nums.splice(maxIndex, 1);
-  const maxTwo = Math.max(...nums);
-  return (maxOne - 1) * (maxTwo - 1);
+  const firstMaxVal = Math.max(...nums);
+  const idx = nums.indexOf(firstMaxVal);
+  nums.splice(idx, 1);
+  const secondMaxVal = Math.max(...nums);
+  return (firstMaxVal - 1) * (secondMaxVal - 1);
 };
 
-const nums = [3, 7];
+const nums = [3, 4, 5, 2];
 console.log(maxProduct(nums));

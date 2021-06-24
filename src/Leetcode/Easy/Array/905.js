@@ -3,14 +3,24 @@
  * @return {number[]}
  */
 var sortArrayByParity = function (nums) {
-  let even = [];
-  let odd = [];
-  for (let x of nums) {
-    if (x % 2) odd.push(x);
-    else even.push(x);
+  var len = nums.length;
+  let temp;
+
+  for (var i = 0, j = len - 1; i < j; ++i) {
+    if (nums[i] % 2 !== 0) {
+      while (j > i) {
+        if (nums[j] % 2 === 0) {
+          temp = nums[i];
+          nums[i] = nums[j];
+          nums[j] = temp;
+          --j;
+          break;
+        }
+        --j;
+      }
+    }
   }
-  let answer = [...even, ...odd];
-  return answer;
+  return nums;
 };
 
 const nums = [3, 1, 2, 4];

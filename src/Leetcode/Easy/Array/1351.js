@@ -3,10 +3,18 @@
  * @return {number}
  */
 var countNegatives = function (grid) {
+  let m = grid.length;
+  let n = grid[0].length;
+  let i = 0;
+  let j = n - 1;
   let answer = 0;
-  for (let i = 0; i < grid.length; i++) {
-    for (let j = 0; j < grid[i].length; j++) {
-      if (grid[i][j] < 0) answer++;
+
+  while (j >= 0 && i < m) {
+    if (grid[i][j] < 0) {
+      answer += m - i;
+      j--;
+    } else {
+      i++;
     }
   }
   return answer;

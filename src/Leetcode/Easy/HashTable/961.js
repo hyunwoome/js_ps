@@ -3,11 +3,14 @@
  * @return {number}
  */
 var repeatedNTimes = function (nums) {
-  nums.sort((a, b) => a - b);
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] === nums[i + 1]) {
-      return nums[i];
-    }
+  let divideLen = nums.length / 2;
+  let obj = {};
+  for (const num of nums) {
+    obj[num] = obj[num] ? obj[num] + 1 : 1;
+  }
+
+  for (const [key, value] of Object.entries(obj)) {
+    if (value === divideLen) return Number(key);
   }
 };
 

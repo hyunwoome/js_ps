@@ -4,19 +4,16 @@
  * @return {number[]}
  */
 var selfDividingNumbers = function (left, right) {
-  function div(num) {
-    let arr = num.toString().split('');
-    let answer = [];
+  function selfDividing(number) {
+    let arr = String(number).split('');
     for (let i = 0; i < arr.length; i++) {
-      if (num % arr[i] === 0) {
-        answer.push(1);
-      }
+      if (number % Number(arr[i]) !== 0) return false;
     }
-    return answer.length === arr.length ? true : false;
+    return true;
   }
   let answer = [];
   for (let i = left; i <= right; i++) {
-    if (div(i)) answer.push(i);
+    if (selfDividing(i)) answer.push(i);
   }
   return answer;
 };

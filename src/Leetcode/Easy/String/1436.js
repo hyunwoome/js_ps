@@ -3,31 +3,23 @@
  * @return {string}
  */
 var destCity = function (paths) {
+  let start = [];
   let dest = [];
-  let count = [];
   for (let i = 0; i < paths.length; i++) {
-    for (let j = 0; j < paths[i].length; j++) {
-      dest.push(paths[i][1]);
-      break;
-    }
+    start.push(paths[i][0]);
+    dest.push(paths[i][1]);
   }
-  dest.forEach((el) => {
-    let answer = 0;
-    for (let i = 0; i < paths.length; i++) {
-      if (paths[i].includes(el)) {
-        answer++;
-      }
-    }
-    count.push(answer);
-  });
-  let min = count.indexOf(Math.min(...count));
-  return dest[min];
+
+  for (let i = 0; i < dest.length; i++) {
+    if (!start.includes(dest[i])) return dest[i];
+  }
 };
 
-const path = [
-  ['London', 'New York'],
-  ['New York', 'Lima'],
-  ['Lima', 'Sao Paulo'],
+const paths = [
+  ['B', 'C'],
+  ['D', 'B'],
+  ['C', 'A'],
 ];
+console.log(destCity(paths));
 
-console.log(destCity(path));
+// [cityA, cityB]

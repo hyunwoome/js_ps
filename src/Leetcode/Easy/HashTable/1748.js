@@ -3,18 +3,18 @@
  * @return {number}
  */
 var sumOfUnique = function (nums) {
-  let hash = {};
-  let count = 0;
-  for (let i = 0; i < nums.length; i++) {
-    hash[nums[i]] = hash[nums[i]] ? 2 : 1;
+  let obj = {};
+  let answer = 0;
+  for (const num of nums) {
+    obj[num] = obj[num] + 1 || 1;
   }
-  for (let i = 0; i < nums.length; i++) {
-    if (hash[nums[i]] === 1) {
-      count += nums[i];
-    }
+
+  for (const [key, value] of Object.entries(obj)) {
+    if (value === 1) answer += Number(key);
   }
-  return count;
+  return answer;
 };
 
-const nums = [1, 2, 3, 2];
+const nums = [1, 1, 1, 1];
+
 console.log(sumOfUnique(nums));
