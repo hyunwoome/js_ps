@@ -4,10 +4,10 @@
  * @return {boolean}
  */
 var canBeEqual = function (target, arr) {
-  let sortTarget = target.sort((a, b) => a - b);
-  let sortArr = arr.sort((a, b) => a - b);
-  for (let i = 0; i < sortTarget.length; i++) {
-    if (sortTarget[i] !== sortArr[i]) return false;
+  let targetSorting = target.sort((a, b) => a - b);
+  let arrSorting = arr.sort((a, b) => a - b);
+  for (let i = 0; i < targetSorting.length; i++) {
+    if (targetSorting[i] !== arrSorting[i]) return false;
   }
   return true;
 };
