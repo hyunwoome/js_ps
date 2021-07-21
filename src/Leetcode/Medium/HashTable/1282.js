@@ -13,7 +13,9 @@ var groupThePeople = function (groupSizes) {
     } else {
       obj[group] = [i];
     }
+
     console.log(obj);
+
     if (obj[group].length === group) {
       answer.push(obj[group]);
       delete obj[group];
