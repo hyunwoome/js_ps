@@ -15,6 +15,3 @@ var check = function (nums) {
 
 const nums = [2, 1, 3, 4];
 console.log(check(nums));
-
-// [2, 1, 3, 4]
-// [2, 3, 4, 1]
