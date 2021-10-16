@@ -12,8 +12,10 @@ rl.on("line", function (line) {
   input.push(line);
 }).on("close", function () {
   let [a, b] = input.shift().split(' ').map(Number);
+
   let tmp = 0;
   let num = 0;
+
   if (a < b) {
     tmp = a;
     a = b;
