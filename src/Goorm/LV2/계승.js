@@ -6,13 +6,13 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.on("line", function(line) {
+rl.on("line", function (line) {
   const input = +line;
   const fact = (num) => {
     if (num === 0) return 1;
-    else return num * fact( num - 1 );
+    else return num * fact(num - 1);
   };
   console.log(fact(input));
-}).on("close", function() {
+}).on("close", function () {
   process.exit();
 });
