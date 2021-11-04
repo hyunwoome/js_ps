@@ -9,7 +9,7 @@ function solution(numbers) {
   const answer = [];
   for (let number of numbers) answer.push(f(number));
   return answer;
-}
+};
 
 const numbers = [2, 7];
 console.log(solution(numbers));
