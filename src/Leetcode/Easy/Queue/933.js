@@ -22,6 +22,6 @@ RecentCounter.prototype.ping = function (t) {
 
 // [[], [1], [100], [3001], [3002]]
 let t = ['RecentCounter', 'ping', 'ping', 'ping', 'ping'];
-let obj = new RecentCounter();
-let param_1 = obj.ping(t);
+let obj1 = new RecentCounter();
+let param_1 = obj1.ping(t);
 console.log(param_1);
