@@ -1,6 +1,7 @@
 const search = (nums, target) => {
   let low = 0;
   let high = nums.length - 1;
+
   while (low < high) {
     let mid = low + Math.floor((high - low + 1) / 2);
     if (target < nums[mid]) {
@@ -9,6 +10,7 @@ const search = (nums, target) => {
       low = mid;
     }
   }
+
   return nums[low] == target ? low : -1;
 };
 
