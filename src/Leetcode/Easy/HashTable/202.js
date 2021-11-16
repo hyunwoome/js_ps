@@ -22,3 +22,5 @@ function sumOfSquares(numString) {
 
 const n = 19;
 console.log(isHappy(n));
+
+console.log(numString);
