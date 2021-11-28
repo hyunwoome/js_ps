@@ -1,22 +1,17 @@
 const solution = (matrix) => {
   let max = 0;
+  let horizonal = 0;
+  let vertical = 0;
 
-  // horizon
+  // horizonal
   for (let i = 0; i < matrix.length; i++) {
-    let tmp = 0;
+    horizonal = 0;
+    vertical = 0;
     for (let j = 0; j < matrix[0].length; j++) {
-      tmp += matrix[i][j];
+      horizonal += matrix[i][j];
+      vertical += matrix[j][i];
     }
-    max = Math.max(max, tmp);
-  }
-
-  // vertical
-  for (let i = 0; i < matrix.length; i++) {
-    let tmp = 0;
-    for (let j = 0; j < matrix[0].length; j++) {
-      tmp += matrix[j][i];
-    }
-    max = Math.max(max, tmp);
+    max = Math.max(max, horizonal, vertical);
   }
 
   // diagonal
@@ -26,7 +21,9 @@ const solution = (matrix) => {
     tmp1 += matrix[i][i];
     tmp2 += matrix[i][matrix.length - i - 1];
   }
-  return Math.max(max, tmp1, tmp2);
+  max = Math.max(max, tmp1, tmp2);
+
+  return max;
 };
 
 const matrix = [
