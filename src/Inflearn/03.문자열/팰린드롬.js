@@ -10,3 +10,10 @@ const solution = (str) => {
 
 const str = 'found7, time: study; Yduts; emit, 7Dnuof';
 console.log(solution(str));
+
+const solution2 = (str2) => {
+  const newStr = str2.toLowerCase().replace(/[^a-z]/g, '');
+  return newStr === newStr.split(' ').reverse().join(' ') ? 'YES' : 'NO';
+};
+const str2 = 'found7, time: study; Yduts; emit, 7Dnuof';
+console.log(solution2(str2));
