@@ -9,7 +9,7 @@ const solution = (arr) => {
       for (let k = 0; k < m; k++) {
         let pi = 0;
         let pj = 0;
-        for (let s = 0; s < n; s++) {
+        for (let s = 0; s < m; s++) {
           if (arr[k][s] === i) pi = s;
           if (arr[k][s] === j) pj = s;
         }
