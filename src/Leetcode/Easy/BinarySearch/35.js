@@ -1,25 +1,15 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number}
- */
-var searchInsert = function (nums, target) {
-  let low = 0;
-  let high = nums.length - 1;
-
-  while (low <= high) {
-    let mid = Math.floor((high + low) / 2);
-    if (nums[mid] == target) return mid;
-    else if (nums[mid] > target) {
-      high = mid - 1;
-    } else {
-      low = mid + 1;
-    }
+const searchInsert = (nums, target) => {
+  let start = 0; // 0
+  let end = nums.length - 1; // 3
+  while (start <= end) {
+    let mid = Math.floor((start + end) / 2); // 1
+    if (nums[mid] === target) return mid;
+    else if (nums[mid] > target) end = mid - 1;
+    else start = mid + 1;
   }
-
-  return low;
+  return start;
 };
 
 const nums = [1, 3, 5, 6];
-const target = 5;
+const target = 2;
 console.log(searchInsert(nums, target));
