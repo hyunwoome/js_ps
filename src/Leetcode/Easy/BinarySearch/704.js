@@ -1,17 +1,14 @@
 const search = (nums, target) => {
-  let low = 0;
-  let high = nums.length - 1;
-
-  while (low < high) {
-    let mid = low + Math.floor((high - low + 1) / 2);
-    if (target < nums[mid]) {
-      high = mid - 1;
-    } else {
-      low = mid;
-    }
+  let start = 0;
+  let end = nums.length - 1;
+  let mid = 0;
+  while (start <= end) {
+    mid = Math.floor((start + end) / 2);
+    if (nums[mid] === target) return mid;
+    else if (nums[mid] < target) start = mid + 1;
+    else end = mid - 1;
   }
-
-  return nums[low] == target ? low : -1;
+  return -1;
 };
 
 const nums = [-1, 0, 3, 5, 9, 12];
