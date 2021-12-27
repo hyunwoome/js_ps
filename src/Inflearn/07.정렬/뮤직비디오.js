@@ -15,7 +15,7 @@ const solution = (n, m, arr) => {
   let lt = Math.max(...arr); // 9
   let rt = arr.reduce((a, b) => a + b, 0); // 45
   while (lt <= rt) {
-    // 9 > 45
+    // 9 <= 45
     let md = parseInt((lt + rt) / 2); // 27
     if (count(arr, md) <= m) {
       answer = md;
