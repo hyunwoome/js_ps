@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bef6b2e2-c50f-4032-8685-da76bc8545a8" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/baekjoon/조건문/bj1330/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/js/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/js/.idea/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/js/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/js/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/js/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/BF/10448.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/BF/1145.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/BF/2231.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/BF/2309.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/BF/2702.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/BF/2798.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/BF/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/DP/11726.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/DP/1463.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/DP/9095.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/DP/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/10430.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/10829.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/10872.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/1212.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/1225.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/1356.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/1373.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/15969.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/1676.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/17087.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/17202.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/1834.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/1929.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/1934.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/2004.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/2033.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/2609.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/2738.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/5533.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/6588.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/8974.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/9613.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Math/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Queue/10845.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Queue/10866.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Queue/1158.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Queue/2146.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Queue/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1009.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1032.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1051.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/10709.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1076.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/10773.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/10798.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/10824.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/10998.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1100.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1236.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1292.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1357.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1453.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/14656.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/14719.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1475.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1476.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1550.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/15680.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/15964.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1773.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1924.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/1977.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2083.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2161.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2187.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2331.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2455.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2475.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2476.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2490.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2558.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2563.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2566.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2576.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2605.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2669.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2693.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2747.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2754.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2845.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2902.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/2914.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/3003.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/3046.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/3047.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/3062.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/3568.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/4641.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/5086.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/5565.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/5567.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/5597.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/5635.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/7567.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/8320.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/9625.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/9933.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Simulation/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Sort/10814.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Sort/10989.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Sort/11650.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Sort/11651.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Sort/11656.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Sort/1181.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Sort/1427.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Sort/2108.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Sort/2750.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Sort/2751.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Stack/10799.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Stack/10828.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Stack/1406.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Stack/17298.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Stack/17413.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Stack/1874.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Stack/1918.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Stack/1935.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Stack/20001.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Stack/9012.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/Stack/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/String/10808.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/String/10809.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/String/10820.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/String/11655.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/String/1264.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/String/2743.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/String/2789.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/String/6996.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/String/9093.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/String/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/입력예제/fs_input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Bronze/입력예제/rl_input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/BF/2422.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/BF/2435.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/BF/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/BS/10816.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/BS/1920.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/BS/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Greedy/1789.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Greedy/4796.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Greedy/9237.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Greedy/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Hash/7785.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Hash/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Math/1094.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Math/9655.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Math/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Queue/11866.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Queue/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Sort/10867.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Sort/11004.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Sort/11557.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Sort/11728.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Sort/11931.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Sort/1764.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Sort/18870.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Sort/2822.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Sort/5800.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Sort/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Stack/4949.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/Stack/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/String/14425.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/String/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/TwoPointer/11659.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Silver/TwoPointer/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/16진수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/369게임.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/3과5의배수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/3의배수게임.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/ASCII코드.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/Substring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/bubblesort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/hellogoorm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/min함수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/가위바위보.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/거스름돈.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/공백없애기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/네수의곱.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/단어의개수세기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/리그경기횟수구하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/모양찍기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/몫과나머지.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/비트연산기본1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/비트연산기본2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/삼각형의넓이.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/세로순서사각형.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/시험성적평균과등급구하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/약수구하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/윤년.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/최소값.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/특정문자개수구하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/피라미드.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/헷갈리는작대기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV1/홀짝판별.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/3차원배열.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/n구하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/계산기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/계승.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/구구단+.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/대소문자바꾸어출력하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/두점사이의거리.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/멀티탭사용.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/문자열뒤집기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/범위내.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/부분문자열.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/부분팰린드롬문자열.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/삼각형의넓이2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/소수의개수구하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/소수판별.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/소인수분해.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/숫자출력.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/알파벳빈도구하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/암스트롱수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/약수의합.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/완전수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/완전제곱수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/유클리드.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/은행.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/재정위기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/전기요금.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/절대값.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/좀비런.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/주사위놀이.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/최단거리.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/최댓값.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/평균과평균보다큰수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/피자쿠폰.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/홀수놀이.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV2/홀수의합.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV3/문자열번갈아출력하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV3/배열합치기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV3/백터의연산.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV3/부모단어.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV3/유일한수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV3/점심은햄버거.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV3/채점하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm/LV3/특정구간의합.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/#으로.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/10부제.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/가운데문자출력.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/가장긴문자열.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/대문자로통일.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/대문자찾기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/대소문자변환.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/문자찾기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/삼각형판별하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/세수중최솟값.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/연필개수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/일곱난쟁이.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/중복단어제거.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/중복문자제거.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/최솟값.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/합출력.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/01.기본/홀수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/02.배열/가위바위보.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/02.배열/격자판최대합.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/02.배열/등수구하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/02.배열/보이는학생.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/02.배열/봉우리.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/02.배열/점수계산.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/02.배열/큰수출력하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/03.문자열/문자거리.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/03.문자열/문자열압축.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/03.문자열/숫자만추출.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/03.문자열/팰린드롬.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/03.문자열/회문문자열.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/04.완전탐색/k번째큰수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/04.완전탐색/뒤집은소수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/04.완전탐색/멘토링.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/04.완전탐색/자릿수의합.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/04.완전탐색/졸업선물.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/05.투포인터/공통원소.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/05.투포인터/두배열합치기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/05.투포인터/모든아나그램찾기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/05.투포인터/아나그램.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/05.투포인터/연속부분수열1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/05.투포인터/연속부분수열2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/05.투포인터/최대매출.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/05.투포인터/학급회장.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/06.스택,큐/공주구하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/06.스택,큐/괄호문자제거.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/06.스택,큐/교육과정설계.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/06.스택,큐/쇠막대기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/06.스택,큐/올바른괄호.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/06.스택,큐/크레인.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/06.스택,큐/후위식연산.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/결혼식.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/구글정렬.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/마구간.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/뮤직비디오.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/버블정렬.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/삽입정렬.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/선택정렬.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/이분검색.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/좌표정렬.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/캐시.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/현수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/07.정렬/회의실배정.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/08.DFS/바둑이승차.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/08.DFS/부분집합.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/08.DFS/이진수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/08.DFS/이진트리.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/08.DFS/재귀함수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/08.DFS/최대점수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inflearn/08.DFS/합이같은부분집합.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1122.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1160.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1184.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1200.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/121.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1217.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/122.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1252.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1260.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1266.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1287.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1295.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1299.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1304.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1313.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1331.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1337.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1351.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/136.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1365.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1380.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1389.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1394.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1413.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1431.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1437.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1450.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1464.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1470.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1480.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1486.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1491.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1502.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1512.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1534.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1539.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1550.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1572.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1588.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1598.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1636.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1640.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/167.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1672.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/169.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1700.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1732.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1742.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1752.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1773.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1779.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1827.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1848.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1869.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1929.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1984.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/1991.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/2006.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/2011.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/2037.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/2053.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/2057.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/217.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/268.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/283.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/350.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/414.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/448.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/495.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/500.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/506.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/566.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/605.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/66.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/674.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/697.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/724.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/747.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/766.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/832.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/867.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/88.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/896.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/905.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Array/941.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Backtracking/1688.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Backtracking/1863.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/BinarySearch/35.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/BinarySearch/704.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/BinarySearch/852.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/BinarySearch/888.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Bit/1342.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Bit/1720.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Bit/461.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Bit/476.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Bit/693.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/DP/121.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/DP/338.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/DP/53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/DP/70.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Graph/1791.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/1005.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/1013.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/1046.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/1403.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/1518.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/1710.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/1716.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/1725.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/1903.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/1974.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/561.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/860.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/942.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Greedy/944.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/1189.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/1207.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/1460.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/1742.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/1748.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/1790.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/1805.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/1893.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/1935.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/1941.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/202.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/2032.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/217.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/290.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/349.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/350.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/389.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/409.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/463.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/575.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/594.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/599.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/705.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/706.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/771.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/811.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/884.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/961.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/HashTable/997.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/LinkedList/1290.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/LinkedList/237.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/1182.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/1281.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/1317.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/1323.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/1523.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/171.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/1837.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/1925.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/1952.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/1979.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/231.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/258.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/453.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/504.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/728.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Math/976.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Matrix/1030.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Matrix/2022.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Matrix/74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Queue/933.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Simulation/1103.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Simulation/1560.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Simulation/1920.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Simulation/1945.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Simulation/412.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Simulation/415.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Simulation/566.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Simulation/682.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Simulation/884.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Simulation/985.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Simulation/999.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Sorting/1051.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Sorting/1356.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Sorting/1913.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Sorting/645.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Sorting/922.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Stack/1021.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Stack/1047.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Stack/1441.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Stack/1475.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Stack/496.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1078.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1108.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1221.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/125.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/13.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1309.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1370.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1374.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/14.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1408.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1417.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1422.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1436.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1446.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1455.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1496.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1507.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1528.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1544.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1556.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1614.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1624.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1662.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1668.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1678.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1684.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1694.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1704.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1812.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1816.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1832.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1844.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1859.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1876.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1880.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1957.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1961.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/1967.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/20.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/2042.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/2068.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/242.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/383.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/387.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/459.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/482.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/520.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/551.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/657.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/709.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/796.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/804.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/821.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/824.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/893.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/917.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/String/929.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Tree/102.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Tree/589.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Tree/590.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Tree/617.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Tree/700.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Tree/897.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/Tree/938.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoPointers/1768.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoPointers/1800.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoPointers/2000.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoPointers/27.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoPointers/344.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoPointers/557.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoPointers/696.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoPointers/88.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoPointers/977.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/Array/1277.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/Array/1409.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/Array/1769.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/Array/189.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/Array/950.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/Greedy/11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/HashTable/1282.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/HashTable/3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/HashTable/36.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/Simulation/54.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/2016년.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/3진법뒤집기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/k번째수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/x만큼간격이있는n개의숫자.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/가운데글자가져오기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/같은숫자는싫어.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/나누어떨어지는숫자배열.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/나머지가1이되는수찾기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/내적.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/두개뽑아서더하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/두정수사이의합.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/로또의최고순위와최저순위.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/모의고사.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/문자열내p와y의개수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/문자열내림차순으로배치하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/문자열내마음대로정렬하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/문자열다루기기본.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/문자열을정수로바꾸기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/부족한금액계산하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/비밀지도.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/서울에서김서방찾기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/소수만들기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/소수찾기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/수박수박수박수박수박수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/숫자문자열과영단어.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/시저암호.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/신규아이디추천.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/실패율.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/약수의개수와덧셈.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/약수의합.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/없는숫자더하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/예산.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/완주하지못한선수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/음양더하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/이상한문자만들기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/자릿수더하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/자연수뒤집어배열로만들기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/정수내림차순으로배치하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/정수제곱근판별.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/제일작은수제거하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/직사각형별찍기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/짝수와홀수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/체육복.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/최대공약수와최소공배수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/최소직사각형.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/콜라츠추측.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/크레인인형뽑기게임.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/키패드누르기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/평균구하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/폰켓몬.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/하샤드수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/핸드폰번호가리기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV1/행렬의덧셈.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/124나라의숫자.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/2개이하로다른비트.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/JadenCase문자열만들기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/N개의최소공배수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/n진수게임.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/가장큰정사각형찾기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/구명보트.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/뉴스클러스터링.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/다음큰숫자.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/땅따먹기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/멀쩡한사각형.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/모음사전.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/방문길이.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/숫자의표현.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/스킬트리.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/영어끝말잇기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/예상대진표.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/오픈채팅방.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/올바른괄호.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/위장.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/점프와순간이동.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/짝지어제거하기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/최댓값과최솟값.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/최솟값만들기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/캐시.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/큰수만들기.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/파일명변경.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/피보나치수.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/LV2/행렬의곱셈.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22zeMYKFezipX58IQRWQicX88wG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="모듈" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.조건문.bj1330.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.조건문.bj1330.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bef6b2e2-c50f-4032-8685-da76bc8545a8" name="변경" comment="" />
+      <created>1640844798891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640844798891</updated>
+      <workItem from="1640844802759" duration="330000" />
+      <workItem from="1640845210061" duration="18000" />
+      <workItem from="1640845238737" duration="699000" />
+      <workItem from="1640847787182" duration="15000" />
+      <workItem from="1640847811377" duration="26000" />
+      <workItem from="1640847846541" duration="18000" />
+      <workItem from="1640926740119" duration="1029000" />
+      <workItem from="1641269978325" duration="353000" />
+      <workItem from="1641274853140" duration="241000" />
+      <workItem from="1641449343897" duration="258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
