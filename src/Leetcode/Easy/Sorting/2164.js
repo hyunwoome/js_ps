@@ -17,6 +17,7 @@ const sortEvenOdd = function (nums) {
       oddList.push(nums[i])
     }
   }
+
   evenList.sort((a, b) => a - b);
   oddList.sort((a, b) => b - a);
 
