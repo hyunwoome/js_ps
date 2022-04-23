@@ -15,7 +15,7 @@ var twoSum = function (nums, target) {
   for (let i = 0; i < len; i++) {
     let complement = target - nums[i];
     let found = hashTable[complement];
-    if (found !== undefined && found != i) return [i, found];
+    if (found !== undefined && found !== i) return [i, found];
   }
   return [0, 0];
 };
