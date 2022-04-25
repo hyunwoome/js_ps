@@ -7,6 +7,7 @@ function ListNode(val, next) {
  * @param {ListNode} head
  * @return {ListNode}
  */
+// TODO: 다시보기
 const mergeNodes = function (head) {
   let newHead = head;
 
